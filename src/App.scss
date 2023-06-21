@@ -1,0 +1,64 @@
+.Home{
+  display: flex;
+}
+.Content{
+  flex: 3;
+  height: 100vh;
+ overflow-y: scroll;
+ .card{
+  height: 70vh;
+ }
+}
+.Slidebar{
+  flex: 1;
+  height: 100vh ;
+ .Link{
+  color: white;
+  text-decoration: none;
+  
+ }
+
+ .hover{
+  :hover{
+    background-color: transparent !important;
+  }
+ }
+
+}
+
+
+
+.header1{
+  display: none;
+
+ 
+}
+
+
+.Slidebar1{
+  height: 80vh !important;
+  .Link{
+    color: white;
+    text-decoration: none;
+    
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+ .header1{
+  display: block;
+ }
+ .Slidebar{
+  display: none;
+ }
+}
+
+.Contact{
+  .card{
+    height: 110vh !important;
+    
+      box-shadow: 5px 10px #e7e6e6;
+    
+  }
+}
